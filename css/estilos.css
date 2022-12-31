@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icons-float {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.icons-float a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.icons-float a:hover {
+    opacity: .7;
+}
+
+
+.fa-whatsapp {
+    color: #6cc751;
+}
+
+.fa-envelope {
+    color: #168de2;
+}
+
+.container-fluid {
+    background-color: #6FBC31;
+}
+
+.carousel {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 2px solid #fff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0px 6px 7px 5px rgba(255, 255, 255, 0.219);
+}
+
+.navbar-collapse {
+    width: 100%;
+    background-color: gray;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.dropdown-menu {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: gray;
+}
+
+.dropdown-item {
+    border-radius: 5px;
+}
+
+.dropdown-item:hover {
+    background-color: #5e5e5e;
+}
+
+.nav-link {
+    width: 40%;
+    background-color: #fff;
+    border-bottom: 3px solid transparent;
+    margin: auto;
+    color: #000;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.nav-link:hover {
+    color: #000;
+
+    border-bottom: 3px solid #235B0B;
+}
+
+.link-logo {
+    margin-left: 10%;
+}
+.logo {
+    width: 150px;
+}
+
+.logo:hover {
+    opacity: .95;
+}
+
+/* MAIN */
+main {
+    background-color: #72727A;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main .carousel-inner .carousel-item img {
+    width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+.mostrar-img {
+    display: none;
+}
+
+.container-title {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.vendido,
+.destacado {
+    width: 90%;
+    margin: auto;
+}
+
+.vendido .title,
+.destacado .title {
+    text-align: start;
+}
+
+.card {
+    background: none;
+    border: 5px solid #5c5c5c;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-body a .card-img-top {
+    box-shadow: -16px 8px 13px 0px rgba(0,0,0,0.75);
+}
+
+.card-body a .card-img-top:hover {
+    box-shadow: 13px 8px 13px 0px rgba(0,0,0,0.75);
+    opacity: .7;
+}
+
+.card-body .canceleria:hover { color: #1E1E1E; text-decoration: underline;}
+.card-body .impermeabilizante:hover {color: #760000; text-decoration: underline;}
+.card-body .carpinteria:hover {color: #AE5E00; text-decoration: underline;}
+.card-body .plafon:hover {color: #a4a4a8; text-decoration: underline;}
+.card-body .aire:hover {color: #FFFFFF; text-decoration: underline;}
+.card-body .reja:hover {color: #304B4A; text-decoration: underline;}
+.card-body .acero:hover {color: #94949F; text-decoration: underline;}
+.card-body .loseta:hover {color: #C8B109; text-decoration: underline;}
+.card-body .perfil:hover {color: #1c1c24; text-decoration: underline;}
+.card-body .cemento:hover {color: #5B5B59; text-decoration: underline;}
+.card-body .herramientas:hover {color: #DF3300; text-decoration: underline;}
+.card-body .electrico:hover {color: #C8B109; text-decoration: underline;}
+
+.destacado .card-title  {
+    font-size: 20px;
+}
+
+.destacado .ver-producto {
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: #760000;
+    color: #fff;
+}
+
+.ver-producto:hover {
+    background-color: #760000b7;
+}
+
+.ver-mas {
+    width: 50%;
+    margin: 10px auto;
+    border: none;
+    background-color: #6FBC31;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+}
+
+.ver-mas:hover {
+    color: #fff;
+    background-color: #235B0B;
+}
+/* ESTILOS DE SERVICIOS */
+
+/* ESTILOS DE NOSOTROS */
+.us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.us-title,
+.title {
+    color: #fff;
+}
+
+.us-title{font-size: 50px; margin: 40px 0;}
+.title {font-size: 30px;}
+
+.description {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    letter-spacing: 2px;
+    color: rgb(39, 39, 39);
+    line-height: 35px;
+}
+
+/* ESTILOS DE CONTACTO */
+
+/* ESTILOS DE PRODUCTOS */
+/* CANCELERIA */
+/* IMPERMEABILIZANTE */
+/* CARPINTERIA */
+/* PLAFON Y ACABADOS DECORATIVOS */
+/* AIRE ACONDICIONADO */
+/* REJAS DE PROTECCIÓN */
+/* ACERO INOXIDABLE */
+/* LOSETAS Y PISOS */
+/* PERFILES Y ACERO */
+/* PRODUCTOS DE CEMENTO */
+/* HERRAMIENTAS */
+/* ELECTRICO */
+
+/* FOOTER */
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #202020;
+    color: #fff;
+    position: absolute;
+}
+
+.extras {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.extras ul {
+    list-style: none;
+    text-align: center;
+}
+
+.extras ul .extras-title {
+    text-transform: uppercase;
+}
+
+.extras ul li {
+    margin-bottom: 20px;
+}
+
+.extras-link {
+    text-decoration: none;
+    color: #5e5e5e;
+    font-style: italic;
+}
+
+.extras-link:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.extras .metodo-pago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MEDIAQUERIES */
+@media screen and (min-width:768px){
+    .icons-float {
+        margin-right: 10px;
+    }
+    header {
+        background-color: #6FBC31;
+    }
+    .navbar-collapse {
+        width: 100%;
+        background: none;
+    }
+
+    .link-logo {
+        margin-left: 4%;
+    }
+    .contenedor-t {
+        justify-content: flex-start;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .nav-link {
+        width: 100%;
+        border-radius: 100px;
+        border: 3px solid #235B0B;
+    }
+
+    .nav-link:hover {
+        opacity: .9;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+        width: 130px;
+    }
+
+    .dropdown-menu {
+        width: auto;
+        position: relative;
+        top: 106px;
+        border-top: none;
+        background-color: #6FBC31;
+    }
+
+    .dropdown-item:hover {
+        background-color: #7bd432;
+    }
+
+    main .carousel-inner .carousel-item img {
+        width: 40%;
+        text-align: center;
+        margin: 0 30px;
+    }
+
+    .mostrar-img {
+        display: inline-block;
+    }
+
+    .destacado {
+        margin-bottom: 20px;
+    }
+
+    .destacado .card-title {
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .destacado .card img {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .contenedor-t {
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px;   
+    }
+    .link-logo {
+        margin-left: 19%;
+    }
+    main .carousel-inner .carousel-item img {
+        width: 40%;
+        text-align: center;
+        margin: 0 30px;
+    }
+
+    .destacado .card-title {
+        width: 80%;
+    }
+
+    .destacado .card img {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .ver-mas {
+        width: 20%
+    }
+
+    footer .extras {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .dropdown-menu {
+        top: 128px;
+    }
+
+    .extras-title {
+        margin-bottom: 10px;
+    }
+
+    .extras ul {
+        padding-right: 30px;
+        border-right: 3px solid #72727A;
+    }
+}
