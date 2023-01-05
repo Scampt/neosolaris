@@ -1,99 +1,119 @@
 <?php require('./layout/header.php') ?>
-<!-- en proceso... -->
 <main>
     <h1 class="canceleria">Cancelería</h1>
-    <p class="canceleria-descripcion">Nos caracterizamos por ofrecer un servicio excepcional en cancelería en general, aluminio, cristales, entre otros</p>
-    <section class="cristales">
-        <h3>Cristales</h3>
-        <h5>Cristales Flotados y Templados</h5>
-        <h5>Cristales con películas de seguridad</h5>
-        <h5>Cristales blindados contra impacto e inastillables, normales y anti-ruido</h5>
-    </section>
-    <section class="canceleria">
-        <h3>Cancelería</h3>
-        <h5>Puertas abatibles y corredizas</h5>
-        <h5>Ventanas abatibles, corredizas, guillotina y proyección</h5>
-    </section>
-    <section class="techos">
-        <h3>Techos</h3>
-        <h5>Policarbonato</h5>
-        <h5>Cristal Templado</h5>
-        <h5>Transparentes</h5>
-        <h5>Corredizos</h5>
-        <h5>Acrílico</h5>
-    </section>
-    <h3>Mosquiteros</h3>
-    <h3>Puertas de aluminio</h3>
-    <section class="accesorios">
-        <h3>Accesorios</h3>
-        <h5>Bisagras</h5>
-        <h5>Sistemas automáticos</h5>
-        <h5>Jaladeras</h5>
-        <h5>Herrajes</h5>
-        <h5>Clips</h5>
-        <h5>Cierra puertas</h5>
-        <h5>Panel compuesto de aluminio</h5>
-        <h5>Entre otros</h5>
-    </section>
-    <h3>Pasamanos</h3>
-    <h3>Estructuras metálicas</h3>
-    <section class="destacado mt-3">
-            <div class="container-title">
-                <h3 class="title">Lo mas destacado</h3>
-            </div>
-            <div class="container">
-                <div class="container">
+    <p class="canceleria-descripcion mb-3">Nos caracterizamos por ofrecer un servicio excepcional en cancelería en general, aluminio, canceleria, entre otros.</p>
 
-                    <div class="row g-3 mt-3">
+    <section class="cristales">
+        <h2 class="main-title">CRISTALES</h2>
+        <p>IMAGEN</p>
+        <!-- <img class="cristal-img mb-3" src="img/productos/canceleria.jpg" alt="" srcset=""> -->
+        <h3 class="title mb-3">Cristales Flotados</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Cristales Templados</h3>
+        <p>IMAGEN</p>
+        <!-- <img class="cristal-img mb-3" src="img/productos/canceleria/cristal2.jpg" alt=""> -->
+        <h3 class="title mb-3">Cristales con películas de seguridad</h3>
+        <p>IMAGEN</p>
+        <!-- <img class="cristal-img mb-3" src="img/productos/canceleria/cristal3.jpg" alt=""> -->
+        <h3 class="title mb-3">Cristales blindados contra impacto e inastillables, normales y anti-ruido</h3>
+        <p>IMAGEN</p>
+            <!-- <img class="cristal-img mb-3" src="img/productos/canceleria/cristal4.jpg" alt=""> -->
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Cristales</a>
+        </div>
+    </section>
+
+    <section class="canceleria">
+        <h2 class="main-title">CANCELERÍA</h2>
+        <h3 class="title mb-3">Puertas abatibles</h2>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Puertas corredizas</h2>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Ventanas abatibles</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Ventanas corredizas</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Ventanas estilo guillotina</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Ventanas estilo proyección</h3>
+        <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Canceleria</a>
+        </div>
+    </section>
+
+    <section class="techos">
+        <h2 class="main-title">TECHOS</h2>
+        <h3 class="title mb-3">Techos de Policarbonato</h2>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Techos de Cristal Templado</h2>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Techos Transparentes</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Techos Corredizos</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Techos de Acrílico</h3>
+        <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Techos</a>
+        </div>
+    </section>
     
-                        <div class="col-12 cold-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="img/producto.jpg" alt="" srcset="">
-                                <div class="card-body">
-                                    <h5 class="card-title">Producto</h5>
-                                    <p class="card-text">Descripción del producto</p>
-                                    <p class="precio">$</p>
-                                    <button type="button" class="ver-producto" value="Ver producto">Ver producto</button>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-12 cold-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="img/producto.jpg" alt="" srcset="">
-                                <div class="card-body">
-                                    <h5 class="card-title">Producto</h5>
-                                    <p class="card-text">Descripción del producto</p>
-                                    <p class="precio">$</p>
-                                    <button type="button" class="ver-producto" value="Ver producto">Ver producto</button>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-12 cold-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="img/producto.jpg" alt="" srcset="">
-                                <div class="card-body">
-                                    <h5 class="card-title">Producto</h5>
-                                    <p class="card-text">Descripción del producto</p>
-                                    <p class="precio">$</p>
-                                    <button type="button" class="ver-producto" value="Ver producto">Ver producto</button>
-                                </div>
-                            </div> 
-                        </div>
-                <!-- VER MAS SECCION -->
-                        <div id="hideText" class="col-12 cold-md-6 col-lg-4 hideText">
-                                <div class="card">
-                                    <img class="card-img-top" src="img/producto.jpg" alt="" srcset="">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Producto</h5>
-                                        <p class="card-text">Descripción del producto</p>
-                                        <p class="precio">$</p>
-                                        <button type="button" class="ver-producto" value="Ver producto">Ver producto</button>
-                                    </div>
-                                </div> 
-                            </div>
-                        
-                        <button type="button" class="ver-mas" value="Ver Más" id="verMas">Ver Más</button>
-                </div>
-        </section>
+    <h2 class="title">MOSQUITEROS</h2>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Mosquiteros</a>
+        </div>
+
+    <h2 class="title">PUERTAS DE ALUMINIO</h2>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Puertas de aluminio</a>
+        </div>
+
+    <section class="techos">
+        <h2 class="main-title">ACCESORIOS</h2>
+        <h3 class="title mb-3">Bisagras</h2>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Sistemas automáticos</h2>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Jaladeres</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Herrajes</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Clips</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Cierra puertas</h3>
+        <p>IMAGEN</p>
+        <h3 class="title mb-3">Panel compuesto de aluminio</h3>
+        <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Accesorios</a>
+        </div>
+    </section>
+
+    <h2 class="title">PASAMANOS</h2>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Pasamanos</a>
+        </div>
+
+    <h2 class="title">ESTRUCTURAS METÁLICAS</h2>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+    <p>IMAGEN</p>
+        <div class="boton-contenedor mt-5 mb-5">
+            <a href="" class="ver-producto">Cotizar productos de Estructuras metálicas</a>
+        </div>
 </main>
 <?php require('layout/footer.php') ?>

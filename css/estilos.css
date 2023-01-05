@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .icons-float {
     display: flex;
     flex-direction: column;
@@ -241,7 +245,40 @@ main .carousel-inner .carousel-item img {
 /* ESTILOS DE CONTACTO */
 
 /* ESTILOS DE PRODUCTOS */
+
 /* CANCELERIA */
+.canceleria-descripcion {
+    width: 90%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.cristales {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cristal-img {
+    width: 90%;
+    margin: auto;
+}
+
+.ver-producto {
+    border: none;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: #760000;
+    color: #fff;
+}
+
+.ver-producto:hover {background-color: #760000b7; color: #fff;}
 /* IMPERMEABILIZANTE */
 /* CARPINTERIA */
 /* PLAFON Y ACABADOS DECORATIVOS */
@@ -371,6 +408,22 @@ footer {
         width: 70%;
         margin: auto;
     }
+
+    /* CANCELERIA */
+    .canceleria-descripcion {
+        width: 80%;
+        font-size: 22px;
+    }
+
+    .cristales-section {
+        width: 80%;
+        margin: auto;
+    }
+
+    .cristales .cristal-img {
+        width: 60%;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width:1000px) {
@@ -401,6 +454,12 @@ footer {
     
     .ver-mas {
         width: 20%
+    }
+
+    /* CANCELERIA */
+    .cristales .cristal-img {
+        width: 40%;
+        margin: auto;
     }
 
     footer .extras {
