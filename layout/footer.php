@@ -11,7 +11,7 @@
             </ul>
             <ul>
                 <h3 class="extras-title">Empresa</h3>
-                <li><a href="../neoSolaris/nosotros.php" class="extras-link">Acerca de nosotros</a></li>
+                <li><a href="../neosolaris/nosotros.php" class="extras-link">Acerca de nosotros</a></li>
             </ul>
             <ul class="metodo-pago">
                 <h3 class="extras-title">Formas de pago</h3>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="../neoSolaris/css/estilos.css">
+    <link rel="stylesheet" href="../neosolaris/css/estilos.css">
     <title>Neo Solaris</title>
 </head>
 <body>
@@ -68,9 +68,9 @@
                             </ul>
                         </li>
 
-                    <li class="nav-item"><a class="nav-link" href="../neoSolaris/servicios.php">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../neoSolaris/nosotros.php">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../neoSolaris/contacto.php">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../neosolaris/servicios.php">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../neosolaris/nosotros.php">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../neosolaris/contacto.php">Contacto</a></li>
                     </ul>
                 </div>
         </nav>
