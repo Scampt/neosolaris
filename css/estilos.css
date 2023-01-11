@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "Stencil D Regular";
+	src:url('fonts/Stencil D Regular/Stencil D Regular.ttf');
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Stencil D Regular";
 }
 
 .icons-float {
@@ -137,8 +142,10 @@ main .carousel-inner .carousel-item img {
     display: none;
 }
 
+/* PRODUCTOS DESTACADOS */
 .container-title {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     border-bottom: 3px solid #000;
 }
 
@@ -154,6 +161,8 @@ main .carousel-inner .carousel-item img {
     color: #000;
 }
 
+.productos-destacados .card .card-body .producto-destacado {width: 100%;}
+
 .card {
     background: none;
     border: 5px solid #6cc751;
@@ -165,6 +174,7 @@ main .carousel-inner .carousel-item img {
 }
 
 .card-body a .card-img-top {
+    width: 50%;
     box-shadow: -16px 8px 13px 0px rgba(0,0,0,0.50);
 }
 
@@ -186,11 +196,11 @@ main .carousel-inner .carousel-item img {
 .card-body .herramientas:hover {color: #DF3300; text-decoration: underline;}
 .card-body .electrico:hover {color: #C8B109; text-decoration: underline;}
 
-.destacado .card-title  {
+.productos-destacados .card .card-body .card-title  {
     font-size: 20px;
 }
 
-.destacado .ver-producto {
+.productos-destacados .card .card-body .ver-producto {
     border: none;
     padding: 15px;
     border-radius: 100px;
@@ -198,9 +208,7 @@ main .carousel-inner .carousel-item img {
     color: #fff;
 }
 
-.ver-producto:hover {
-    background-color: #760000b7;
-}
+.productos-destacados .card .card-body .ver-producto:hover {background-color: #760000b7;}
 
 .ver-mas {
     width: 50%;
@@ -218,6 +226,9 @@ main .carousel-inner .carousel-item img {
     background-color: #235B0B;
 }
 /* ESTILOS DE GALERIA */
+.productos .proyectos .galeria-img {
+    width: 100%;
+}
 
 /* ESTILOS DE NOSOTROS */
 .us-container {
@@ -277,12 +288,16 @@ main .carousel-inner .carousel-item img {
 .productos .canceleria {color: #1E1E1E;}
 /* IMPERMEABILIZANTE */
 .productos .impermeabilizantes {color: #760000;}
+.productos .card .card-body .impermeabilizantes-logos img {width: 60%;}
+
 /* CARPINTERIA */
 .productos .carpinteria {color: #AE5E00;}
 /* PLAFON Y ACABADOS DECORATIVOS */
 .productos .plafon {color: #a4a4a8;}
+.productos .card .card-body .marcas .plafon-logo-img {width: 100%;}
 /* AIRE ACONDICIONADO */
 .productos .aire {color: #000;}
+.productos .card .card-body .marcas-aire .aire-acondicionado-img {width: 100%;}
 /* REJAS DE PROTECCIÓN */
 .productos .reja {color: #304B4A;}
 /* ACERO INOXIDABLE */
@@ -290,6 +305,7 @@ main .carousel-inner .carousel-item img {
 /* LOSETAS Y PISOS */
 .productos .reja {color: #C8B109;}
 /* PERFILES Y ACERO */
+
 /* .productos .perfil {color: #1c1c24;} */
 /* PRODUCTOS DE CEMENTO */
 /* .productos .cemento {color: #5B5B59;} */
@@ -297,6 +313,42 @@ main .carousel-inner .carousel-item img {
 .productos .herramientas {color: #DF3300;}
 /* ELECTRICO */
 /* .productos .electrico {color: #C8B109;} */
+
+/* FORMULARIO */
+
+.formulario-container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #6cc751;
+    color: #fff;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input {
+    border: none;
+}
+
+form .enviar {
+    background-color: #000000;
+    border-radius: 10px;
+    color: #fff;
+}
+.enviar:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.mapa {
+    width: 80%;
+    margin: 20px auto;
+}
 
 /* FOOTER */
 footer {
@@ -424,6 +476,9 @@ footer {
         width: 80%;
         margin: auto;
     }
+    /* PRODUCTOS DESTACADOS */
+    .productos-destacados .card .card-body .producto-destacado {width: 70%;}
+    .productos-destacados .card .card-body .card-title {font-size: 18px;}
     /* PRODUCTOS */
     .productos-descripcion {
         width: 60%;
@@ -433,6 +488,25 @@ footer {
 
     .productos-container {
         justify-content: center;
+    }
+    /* IMPERMEABILIZANTES */
+    .productos .main-title {
+        font-size: 25px;
+    }
+    .productos .card .card-body .impermeabilizantes-logos img {width: 80%;}
+    .productos .card .card-body .impermeabilizantes-logos .alkoat {padding-top: 50px}
+    .productos .card .card-body .fester-logo {padding-top: 80px;}
+    /* PLAFONES */
+    .productos .card .card-body .marcas .plafon-logo-img {width: 70%;}
+    /* AIRE */
+    .productos .card .card-body .marcas-aire .aire-acondicionado-img {width: 70%;}
+
+    main .formulario-container  {
+    width: 50%;
+    }
+    .enviar {
+        width: 50%;
+        margin: auto;
     }
 }
 
@@ -462,11 +536,11 @@ footer {
         margin: auto;
     }
 
-        /* NOSOTROS */
-        .us-container {
-            width: 70%;
-            margin: auto;
-        }
+    /* NOSOTROS */
+    .us-container {
+        width: 70%;
+        margin: auto;
+    }
     
     .ver-mas {
         width: 20%
@@ -490,4 +564,10 @@ footer {
         padding-right: 30px;
         border-right: 3px solid #72727A;
     }
+    /* IMPERMEABILIZANTES */
+    .productos .card .card-body .impermeabilizantes-logos img {width: 50%;}
+    
+    main .formulario-container  {
+        width: 30%;
+        }
 }
