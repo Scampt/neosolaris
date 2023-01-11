@@ -3,9 +3,8 @@
 <main>
     <div class="us-container">
         <h1 class="us-title">NEO SOLARIS 29 S.A DE C.V</h1>
-    
         <h2 class="title">Misión</h2>
-        <p class="description">La misión de la empresa es participar en los procesos de desarrollo del país, mediante
+        <p class="description">Somos una empresa con más de 07 años en el sector de la construcción, nuestro objetivo es participar en los procesos de desarrollo del país, mediante
     la generación de empleo y bienestar a través de la promoción de actividades
     innovadoras en los sectores de la construcción, industriales, agrícola, comercial y otros
     relacionados, mediante una relación cercana con nuestros clientes, buscando las

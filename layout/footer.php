@@ -1,17 +1,12 @@
 <footer>
         <div class="extras">
             <ul>
-                <h3 class="extras-title">Soporte al cliente</h3>
-                <li><a href="" class="extras-link">Preguntas frecuentes</a></li>
-            </ul>
-            <ul>
                 <h3 class="extras-title">Políticas</h3>
-                <li><a href="" class="extras-link">Términos y servicios</a></li>
                 <li><a href="" class="extras-link">Aviso de privacidad</a></li>
             </ul>
             <ul>
                 <h3 class="extras-title">Empresa</h3>
-                <li><a href="../neosolaris/nosotros.php" class="extras-link">Acerca de nosotros</a></li>
+                <li><a href="nosotros.php" class="extras-link">Acerca de nosotros</a></li>
             </ul>
             <ul class="metodo-pago">
                 <h3 class="extras-title">Formas de pago</h3>

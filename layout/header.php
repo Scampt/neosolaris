@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
     <header id="header">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand link-logo" href="https://neosolaris29.net"><img src="img/logo.png" class="logo" alt="" srcset=""></a>
+                <a class="navbar-brand link-logo" href="https://neosolaris29.net"><img src="img/logo.png" loading="lazy" class="logo" alt="" srcset=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -68,9 +68,9 @@
                             </ul>
                         </li>
 
-                    <li class="nav-item"><a class="nav-link" href="../neosolaris/servicios.php">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../neosolaris/nosotros.php">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../neosolaris/contacto.php">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.php">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.php">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
                     </ul>
                 </div>
         </nav>

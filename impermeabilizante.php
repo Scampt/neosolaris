@@ -1,29 +1,80 @@
 <?php require('./layout/header.php') ?>
 <main>
-    <h1 class="impermeabilizante">IMPERMEABILIZANTES</h1>
-    <p class="impermeabilizante-descripcion mb-3">Con nuestro servicio o suministro de impermeabilizante evita el rápido deterioro de la construcción, así como humedades y situaciones de insalubridad en el interior, entre otras indeseables consecuencias.</p>
+        <section class="productos">
+            <div class="container-title">
+                <h1 class="productos-title impermeabilizantes">Impermeabilizantes</h1>
+                <p class="productos-descripcion mb-3">Con nuestro servicio o suministro de impermeabilizante evita el rápido deterioro de la construcción, así como humedades y situaciones de insalubridad en el interior, entre otras indeseables consecuencias.</p>
+            </div>
+            <div class="container">
 
-    <section class="impermeabilizante">
-        <h2 class="title">Impermeabilización con acrílico</h2>
-        <p>IMAGEN</p>
-        <h3 class="title mb-3">Impermeabilización con prefabricado</h3>
-        <p>IMAGEN</p>
-        <h3 class="title mb-3">Impermeabilizantes</h3>
-        <p>LOGO DE ALKOAT</p>
-        <p>LOGO DE IMPERQUIMIA</p>
-        <p>LOGO DE FESTER</p>
-        <p>LOGO DE PASA</p>
+                <div class="row g-3 mt-3 d-flex productos-container">
+                    <h2 class="main-title">IMPERMEABILIZANTES</h2>
 
-        <h3 class="title mb-3">Impermeabilizamos</h3>
-        <p>IMAGEN CISTERNA</p>
-        <p>IMAGEN MUROS</p>
-        <p>IMAGEN TECHOS</p>
-        <p>IMAGEN JARDINERAS</p>
-        <h3 class="title mb-3">Mantenimiento</h3>
-        <p>IMAGEN</p>
-        <div class="boton-contenedor mt-5 mb-5">
-            <a href="" class="ver-producto">Cotizar productos de impermeabilizantes</a>
-        </div>
-    </section>
-</main>
+                <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="impermeabilizantes-logos">
+                                    <img class="alkoat" src="img/productos/logos/alkoat.png" loading="lazy" alt="Logo de Alkoat" srcset=""> <!-- Alkoat -->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="impermeabilizantes-logos">
+                                    <img src="img/productos/logos/imperquimia.png" loading="lazy" alt="Logo de Imperquimia" srcset=""> <!-- Imperquimia -->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body fester">
+                                <figure class="impermeabilizantes-logos fester-logo">
+                                    <img class="" src="img/productos/logos/fester.png" loading="lazy" alt="Logo de Fester" srcset=""> <!-- Fester -->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="impermeabilizantes-logos">
+                                    <img src="img/productos/logos/pasa.png" loading="lazy" alt="Logo de Pasa" srcset=""> <!-- Pasa -->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">IMPERMEABILIZAMOS</h2>
+                                <h3 class="title mb-3">Cisternas</h2>
+                                <h3 class="title mb-3">Muros</h2>
+                                <h3 class="title mb-3">Techos</h3>
+                                <h3 class="title mb-3">Jardineras</h3>
+                                <h3 class="title mb-3">Mantenimiento</h3>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">IMPERMEABILIZACIÓN CON ACRÍLICO</h2>
+                            </div>
+                        </div> 
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
 <?php require('layout/footer.php') ?>

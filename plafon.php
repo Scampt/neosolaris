@@ -1,110 +1,152 @@
 <?php require('./layout/header.php') ?>
 <main>
-    <h1 class="plafon">PLAFONES Y ACABADOS DECORATIVOS</h1>
-    <p class="plafon-descripcion mb-3">Suministro e Instalación de productos de yeso y acabados, tales como plafón, yeso texturado, paredes interiores y estructuras decorativas.</p>
+        <section class="productos">
+            <div class="container-title">
+                <h1 class="productos-title plafon">Plafones y Acabados Decorativos</h1>
+                <p class="productos-descripcion mb-3">Suministro e Instalación de productos de yeso y acabados, tales como plafón, yeso texturado, paredes interiores y estructuras decorativas.</p>
+            </div>
+            <div class="container">
 
-    <section class="plafon">
-    <h2 class="title">Plafones</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                <div class="row g-3 mt-3 d-flex productos-container">
 
-    <h2 class="title">Muros de tablaroca</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">PLAFONES</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Acabados decorativos</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">MUROS DE TABLAROCA</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Tornillería y fijadores para tablaroca</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">ACABADOS DECORATIVOS</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Granoplast pasta decorativa</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">TORNILLERÍA Y FIJADORES PARA TABLAROCA</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Muros falsos</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">GRANOPLAST PASTA DECORATIVA</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Muros divisorios para interiores</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">MUROS FALSOS</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Techos falsos</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">MUROS DIVISORIOS PARA INTERIORES</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Tablaroca</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">TECHOS FALSOS</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Panel yeso Redimix</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">TABLAROCA</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Suspensión</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">PANEL DE YESO REDIMIX</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Pastas decorativas</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">SUSPENSIÓN</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Perfiles metálicos</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">PASTAS DECORATIVAS</h2>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">PERFILES METÁLICOS</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Accesorios para tablaroca</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">ACCESORIOS PARA TABLAROCA</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Tornillería Redimix, Basecoat, Permabase y Protecto Plus</h2>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
-    <p>IMAGEN</p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title">TORNILLERÍA REDIMIX, BASECOAT, PERMABASE Y PROTECTO PLUS</h2>
+                            </div>
+                        </div> 
+                    </div>
 
-    <h2 class="title">Marcas con las que trabajamos</h2>
-    <p>LOGO DE TABLACEMENTO</p>
-    <p>LOGO DE PANEL REY</p>
-    <p>LOGO DE SUSPENSIÓN DONN DX</p>
-    <p>LOGO DE TABLACEMENTO MARCA DUROCK Y PERMABASE</p>
-    <p>LOGO DE SUSPENSIÓN CHICAGO METALIC</p>
-    <p>LOGO DE PLAFONES DE LANA MINERAL MARCA DURACIELO</p>
-    <p>LOGO DE PLAFONES DE AISLAMIENTO TÉRMICO</p>
-    </section>
-    <div class="boton-contenedor mt-5 mb-5">
-            <a href="" class="ver-producto">Cotizar productos de Plafones y acabados decorativos</a>
-        </div>
-</main>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="main-title mb-3">Marcas con las que trabajamos</h2>
+                                <figure class="marcas">
+                                    <img class="plafon-logo-img mb-5" src="img/productos/logos/tablacemento.png" alt="Logo de USG"> 
+                                    <img class="plafon-logo-img mb-5" src="img/productos/logos/panel-rey.png" alt="Logo de PANEL REY">
+                                    <img class="plafon-logo-img mb-5" src="img/productos/logos/tablaroca.png" alt="Logo de  DUROCK">
+                                    <img class="plafon-logo-img mb-5" src="img/productos/logos/chicago-metalic.png" alt="Logo de chicago-metalic">
+                                    <img class="plafon-logo-img mb-5" src="img/productos/logos/duracielos.png" alt="Logo de Duracielos">
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
 <?php require('layout/footer.php') ?>

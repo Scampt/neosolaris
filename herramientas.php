@@ -1,21 +1,154 @@
 <?php require('./layout/header.php') ?>
-<h1 class="title">PRODUCTOS FERRETEROS</h1>
-<figure class="logos-container">
-    <img class="logo-producto" class="w-100" src="img/logos/austromex.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/truper.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/ducasse.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/urrea.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/surtek.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/rotoplas.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/makita.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/pretul.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/philips.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/resistol.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/foset.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/sika.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/hermex.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/condumex.jpg" alt="" srcset="">
-    <img class="logo-producto" class="w-100" src="img/logos/volteck.jpg" alt="" srcset="">
-    <p>Todos los derechos reservados.</p>
-</figure>
+<main>
+        <section class="productos">
+            <div class="container-title">
+                <h1 class="productos-title herramientas">Productos Ferreteros</h1>
+            </div>
+            <div class="container">
+
+                <div class="row g-3 mt-3 d-flex productos-container">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Austromex">  <!-- AUSTROMEX-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Trupper">  <!-- TRUPER-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Ducasse">  <!-- DUCASSE-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Urrea">  <!-- URREA-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Surtek">  <!-- SURTEK-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Rotoplas">  <!-- ROTOPLAS-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Makita">  <!-- MAKITA-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Pretul">  <!-- PRETUL-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Philips">  <!-- PHILIPS-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Resistol">  <!-- RESISTOL-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Foset">  <!-- FOSET-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Sika">  <!-- SIKA-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Hermex">  <!-- HERMEX-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Condumex">  <!-- CONDUMEX-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <figure class="herramientas-logo">
+                                    <img src="" loading="lazy" alt="Logo de Volteck">  <!-- VOLTECK-->
+                                </figure>
+                            </div>
+                        </div> 
+                    </div>
+                    <p>Todos los derechos reservados</p>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
 <?php require('layout/footer.php') ?>
