@@ -350,16 +350,6 @@
                     </div> 
                 </div>
 
-                <!-- <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <figure class="proyectos">
-                                <img class="galeria-img" src="img/galeria/37.jpg" loading="lazy" alt="Proyecto de neosolaris29" srcset="">
-                            </figure>
-                        </div>
-                    </div> 
-                </div> -->
-
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-body">

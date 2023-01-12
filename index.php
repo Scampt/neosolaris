@@ -181,42 +181,42 @@
             <div class="container">
                 <div class="row g-3 mt-3">
 
-                <div class="col-12 col-md-6 mb-5">
+                <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <img class="card-img-top" src="img/productos/sierra.png" loading="lazy" alt="imagen de sierra" srcset="">
-                            <h5 class="card-title mb-3">Sierra de banda inalámbrica Bosch GCB 18V-63 18V</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <h5 class="card-title mb-5">Sierra de banda inalámbrica Bosch GCB 18V-63 18V</h5>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 mb-5">
+                <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <img class="card-img-top" src="img/productos/lijadora.png" loading="lazy" alt="imagen de lijadora" srcset="">
-                            <h5 class="card-title mb-3">Lijadora roto orbital Bosch GEX 12V-125 Brushless 12V</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <h5 class="card-title mb-5">Lijadora roto orbital Bosch GEX 12V-125 Brushless 12V</h5>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 mb-5">
+                <div class="col-12 col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <img class="card-img-top" src="img/productos/esmeril.png" loading="lazy" alt="imagen de esmeril" srcset="">
-                            <h5 class="card-title mb-3">Esmeril inalámbrico Bosch GWS 18V-10 PSC 18V</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <h5 class="card-title mb-5">Esmeril inalámbrico Bosch GWS 18V-10 PSC 18V</h5>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 mb-5">
+                <div class="col-12 col-md-6 mb-3">
                     <div class="card">
                         <div class="card-body">
                             <img class="card-img-top" src="img/productos/aspiradora.png" loading="lazy" alt="imagen de aspiradora" srcset="">
-                            <h5 class="card-title mb-3">Aspiradora de polvo inalámbrica Bosch GAS 18V-10</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <h5 class="card-title mb-5">Aspiradora de polvo inalámbrica Bosch GAS 18V-10</h5>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>                    

@@ -13,7 +13,7 @@
                         <div class="card-body">
                             <img class="producto-destacado" src="img/productos/combo_bosch.png" alt="" srcset="">
                             <h5 class="card-title mb-5">Combo Bosch 12V 1 Llave de Impacto GDR 120-LI</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                         <div class="card-body">
                             <img class="producto-destacado" src="img/productos/llave de impacto.png" alt="" srcset="">
                             <h5 class="card-title mb-5">Llave de impacto inalámbrica Bosch GDX 180-LI</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                         <div class="card-body">
                             <img class="producto-destacado" src="img/productos/llave de impacto.png" alt="" srcset="">
                             <h5 class="card-title mb-5">Llave de impacto inalámbrica Bosch GDX 180-LI</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         <div class="card-body">
                             <img class="producto-destacado" src="img/productos/combo bosch2.png" alt="" srcset="">
                             <h5 class="card-title mb-5">Combo Bosch 12V 1 Llave de Impacto GDR 120-LI</h5>
-                            <button type="button" class="ver-producto" value="Ver producto">Cotizar producto</button>
+                            <a href="https://wa.link/5v10yi" target="_blank" class="ver-producto">Cotizar producto</a>
                         </div>
                     </div>
                 </div>
