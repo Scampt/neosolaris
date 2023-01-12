@@ -10,9 +10,9 @@
     <title>Neo Solaris</title>
 </head>
 <body>
-    <div class="icons-float" id="#header">
-        <a href="" class="whatsapp-link"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href=""><i class="fa-solid fa-envelope"></i></a>
+<div class="icons-float" id="#header">
+        <a href="https://wa.link/5v10yi" target="_blank" class="whatsapp-link"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:cotizaciones@neosolaris29.net" target="_blank"><i class="fa-regular fa-envelope"></i></a>
     </div>
     <header id="header">
         <nav class="navbar navbar-expand-md">

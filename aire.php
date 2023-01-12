@@ -13,7 +13,7 @@
                     <div class="col-12 col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <figure class="marcas-aire">
+                                <figure class="marcas">
                                     <img class="aire-acondicionado-img" src="img/productos/logos/mirage.png" loading="lazy" alt="Logo de Mirage"> <!-- Mirage -->
                                 </figure>
                             </div>
@@ -23,7 +23,7 @@
                     <div class="col-12 col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <figure class="marcas-aire">
+                                <figure class="marcas">
                                     <img class="aire-acondicionado-img" src="img/productos/logos/york.png" loading="lazy" alt="Logo de York"> <!-- York -->
                                 </figure>
                             </div>
@@ -33,7 +33,7 @@
                     <div class="col-12 col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <figure class="marcas-aire">
+                                <figure class="marcas">
                                     <img class="aire-acondicionado-img" src="img/productos/logos/mitsubishi.png" loading="lazy" alt="Logo de Mitsubishi"> <!-- Mitsubishi -->
                                 </figure>
                             </div>
@@ -43,7 +43,7 @@
                     <div class="col-12 col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <figure class="marcas-aire">
+                                <figure class="marcas">
                                     <img class="aire-acondicionado-img" src="img/productos/logos/samsung.png" loading="lazy" alt="Logo de Samsung"> <!-- Samsung -->
                                 </figure>
                             </div>

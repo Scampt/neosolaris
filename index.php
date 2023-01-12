@@ -225,4 +225,4 @@
             </div>
         </section>
     </main>
-    <?php require('layout/footer.php') ?>
+<?php require('layout/footer.php') ?>
