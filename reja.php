@@ -49,8 +49,26 @@
                         <div class="card">
                             <div class="card-body">
                                 <h2 class="main-title">REJA METÁLICA</h2>
+                                <h3 class="medidas-title">Medidas</h3>
+                                <p class="medida">Postes con base: 0.63 m, 1.00 m, 1.50 m, 2.00 m y 2.50 m</p>
+                                <p class="medida">Postes sin base (ahogado): 0.63 m, 1.00 m, 1.50 m, 2.00 m y 2.50 m</p>
+                            </div>
+                            <h4>Colores de reja</h4>
+                            <div class="colores">
+                                        <p class="black">Negro</p>
+                                        <p class="white">Blanco</p>
+                                        <p class="green">Verde</p>
+                                        <p class="brown-c">Café chocolate</p>
+                                        <p class="gray-p">Gris paraíso</p>
+                                        <p class="gray-syp">Gris SYP</p>
+                                        <p class="gray-o">Gris Oxford</p>
+                                        <p class="yellow-t">Amarillo tráfico</p>
+                                        <p class="red">Rojo</p>
+                                        <p class="sand">Arena</p>
+                                        <p class="blue">Azul</p>
                             </div>
                         </div> 
+
                     </div>
                     
                     <div class="col-12 col-md-6 col-lg-4">

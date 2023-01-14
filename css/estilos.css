@@ -302,6 +302,28 @@ main .carousel-inner .carousel-item img {
 .productos .reja {color: #94949F;}
 /* LOSETAS Y PISOS */
 .productos .reja {color: #C8B109;}
+.productos .medidas-title {
+    font-style: italic;
+    font-size: 20px;
+}
+.colores {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.colores p {list-style: none; padding: 15px;}
+.black {background:#000; color: #fff;}
+.white {background:#fff; color: #000;}
+.green {background:#113d28; color: #fff;}
+.brown-c {background:#2b1a10; color: #fff;}
+.gray-p {background:#c6c6c6; color: #000;}
+.gray-syp {background:#878787; color: #000;}
+.gray-o {background:#3c3c3b; color: #fff;}
+.yellow-t {background:#f8b133; color: #000;}
+.red {background:#e20613; color: #fff;}
+.sand {background:#b2a38d; color: #000;}
+.blue {background:#28348a; color: #000;}
 /* PERFILES Y ACERO */
 /* .productos .perfil {color: #1c1c24;} */
 /* PRODUCTOS DE CEMENTO */
@@ -513,6 +535,8 @@ footer {
     .productos .card .card-body .marcas .plafon-logo-img {width: 70%;}
     /* AIRE */
     .productos .card .card-body .marcas-aire .aire-acondicionado-img {width: 70%;}
+
+
 
     main .formulario-container  {
     width: 50%;
