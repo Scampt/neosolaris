@@ -190,10 +190,10 @@ main .carousel-inner .carousel-item img {
 .card-body .reja:hover {color: #304B4A; text-decoration: underline;}
 .card-body .acero:hover {color: #94949F; text-decoration: underline;}
 .card-body .loseta:hover {color: #C8B109; text-decoration: underline;}
-.card-body .perfil:hover {color: #1c1c24; text-decoration: underline;}
-.card-body .cemento:hover {color: #5B5B59; text-decoration: underline;}
-.card-body .herramientas:hover {color: #DF3300; text-decoration: underline;}
-.card-body .electrico:hover {color: #C8B109; text-decoration: underline;}
+/* .card-body .perfil:hover {color: #1c1c24; text-decoration: underline;} */
+/* .card-body .cemento:hover {color: #5B5B59; text-decoration: underline;} */
+/* .card-body .herramientas:hover {color: #DF3300; text-decoration: underline;} */
+/* .card-body .electrico:hover {color: #C8B109; text-decoration: underline;} */
 
 .productos-destacados .card .card-body .card-title  {
     font-size: 20px;
@@ -329,7 +329,7 @@ main .carousel-inner .carousel-item img {
 /* PRODUCTOS DE CEMENTO */
 /* .productos .cemento {color: #5B5B59;} */
 /* HERRAMIENTAS */
-.productos .herramientas {color: #DF3300;}
+/* .productos .herramientas {color: #DF3300;} */
 /* ELECTRICO */
 /* .productos .electrico {color: #C8B109;} */
 

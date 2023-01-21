@@ -31,47 +31,29 @@
                             Productos
                             </a>
                             <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="canceleria.php">Canceleria</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="" class="dropdown-item">Cristales</a></li>
-                                <li><a href="" class="dropdown-item">Cancelería</a></li>
-                                <li><a href="" class="dropdown-item">Techos</a></li>
-                                <li><a href="" class="dropdown-item">Mosquiteros</a></li>
-                                <li><a href="" class="dropdown-item">Puertas de aluminio</a></li>
-                                <li><a href="" class="dropdown-item">Accesorios</a></li>
-                                <li><a href="" class="dropdown-item">Pasamanos</a></li>
-                                <li><a href="" class="dropdown-item">Estructuras</a></li>
-                            </ul>
-                            </li>
+                            <li><a class="dropdown-item" href="./canceleria">Canceleria</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="impermeabilizante.php">Impermeabilizantes</a></li>
+                            <li><a class="dropdown-item" href="./impermeabilizante">Impermeabilizantes</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="carpinteria.php">Carpinteria</a></li>
+                            <li><a class="dropdown-item" href="./carpinteria">Carpinteria</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="plafon.php">Plafones y acabados</a></li>
+                            <li><a class="dropdown-item" href="./plafon">Plafones y acabados</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="aire.php">Aire acondicionado</a></li>
+                            <li><a class="dropdown-item" href="./aire">Aire acondicionado</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="reja.php">Rejas de protección</a></li>
+                            <li><a class="dropdown-item" href="./reja">Rejas de protección</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="acero.php">Acero inoxidable</a></li>
+                            <li><a class="dropdown-item" href="./acero">Acero inoxidable</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="loseta.php">Losetas y Pisos</a></li>
+                            <li><a class="dropdown-item" href="./loseta">Losetas y Pisos</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="perfil.php">Perfiles y Aceros</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="cemento.php">Productos de cemento</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="herramientas.php">Productos Ferreteros</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="electrico.php">Eléctrico</a></li>
+                            <li><a class="dropdown-item" href="./proyectos-arquitectonicos">Proyectos arquitectónicos</a></li>
                             </ul>
                         </li>
 
-                    <li class="nav-item"><a class="nav-link" href="galeria.php">Galeria</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros.php">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./galeria">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacto">Contacto</a></li>
                     </ul>
                 </div>
         </nav>
