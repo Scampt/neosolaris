@@ -31,29 +31,29 @@
                             Productos
                             </a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./canceleria">Canceleria</a></li>
+                            <li><a class="dropdown-item" href="canceleria.php">Canceleria</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./impermeabilizante">Impermeabilizantes</a></li>
+                            <li><a class="dropdown-item" href="impermeabilizante.php">Impermeabilizantes</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./carpinteria">Carpinteria</a></li>
+                            <li><a class="dropdown-item" href="carpinteria.php">Carpinteria</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./plafon">Plafones y acabados</a></li>
+                            <li><a class="dropdown-item" href="plafon.php">Plafones y acabados</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./aire">Aire acondicionado</a></li>
+                            <li><a class="dropdown-item" href="aire.php">Aire acondicionado</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./reja">Rejas de protección</a></li>
+                            <li><a class="dropdown-item" href="reja.php">Rejas de protección</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./acero">Acero inoxidable</a></li>
+                            <li><a class="dropdown-item" href="acero.php">Acero inoxidable</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./loseta">Losetas y Pisos</a></li>
+                            <li><a class="dropdown-item" href="loseta.php">Losetas y Pisos</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./proyectos-arquitectonicos">Proyectos arquitectónicos</a></li>
+                            <li><a class="dropdown-item" href="proyectos-arquitectonicos.php">Proyectos arquitectónicos</a></li>
                             </ul>
                         </li>
 
-                    <li class="nav-item"><a class="nav-link" href="./galeria">Galeria</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./nosotros">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.php">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.php">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
                     </ul>
                 </div>
         </nav>
