@@ -124,50 +124,6 @@
                         </div> 
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="perfil.php" class="perfil">
-                                    <h5 class="card-title">Perfiles y Acero</h5>
-                                    <img class="card-img-top" loading="lazy" src="img/productos/perfil.jpg" alt="Imagen de perfiles y acero de neosolaris29" srcset="">
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="cemento.php" class="cemento">
-                                    <h5 class="card-title">Productos de cemento</h5>
-                                    <img class="card-img-top" loading="lazy" src="img/productos/cemento.jpg" alt="Imagen de productos de cemento de neosolaris29" srcset="">
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="herramientas.php" class="herramientas">
-                                    <h5 class="card-title">Productos Ferreteros</h5>
-                                    <img class="card-img-top" loading="lazy" src="img/productos/herramientas.jpg" alt="Imagen de herramientas de neosolaris29" srcset="">
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="electrico.php" class="electrico">
-                                    <h5 class="card-title">Eléctrico</h5>
-                                    <img class="card-img-top" loading="lazy" src="img/productos/electrico.jpg" alt="Imagen de productos electricos de neosolaris29" srcset="">
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
-
                 </div>
 
             </div>
