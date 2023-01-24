@@ -45,8 +45,6 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="acero.php">Acero inoxidable</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="loseta.php">Losetas y Pisos</a></li>
-                            <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="proyectos-arquitectonicos.php">Proyectos arquitectónicos</a></li>
                             </ul>
                         </li>

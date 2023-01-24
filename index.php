@@ -112,17 +112,6 @@
                             </div>
                         </div> 
                     </div>
-                    
-                    <div class="col-12 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="loseta.php" class="loseta">
-                                    <h5 class="card-title">Losetas y Pisos</h5>
-                                    <img class="card-img-top" loading="lazy" src="img/productos/loseta.jpg" alt="Imagen de losetas y pisos de neosolaris29" srcset="">
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
 
                 </div>
 
