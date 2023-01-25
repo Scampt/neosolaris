@@ -117,6 +117,35 @@ body {
     opacity: .9;
 }
 
+.contacto-rapido {
+    width: 100%;
+    background-color: #6FBC31;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contacto-rapido ul {
+    list-style-type: none;
+}
+
+.contacto-rapido ul .contacto-rapido-title {
+    font-size: 22px;
+}
+
+.contacto-rapido ul li a {
+    font-size: 17px;
+    color: #000;
+    text-decoration: none;
+}
+
+.contacto-rapido ul li a:hover {
+    color: #fff;
+}
+
+
 /* MAIN */
 main {
     background-color: #fff;
@@ -466,6 +495,11 @@ footer {
         width: 130px;
     }
 
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute;
+        left: 50px;
+    }
+
     .dropdown-menu {
         width: auto;
         position: relative;
@@ -476,6 +510,10 @@ footer {
 
     .dropdown-item:hover {
         background-color: #7bd432;
+    }
+
+    .contacto-rapido {
+        align-items: flex-start;
     }
 
     main .carousel-inner .carousel-item img {
@@ -558,6 +596,11 @@ footer {
     .link-logo {
         margin-left: 19%;
     }
+
+    .contacto-rapido {
+        margin-left: 10%;
+    }
+
     main .carousel-inner .carousel-item img {
         width: 40%;
         text-align: center;

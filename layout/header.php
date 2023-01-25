@@ -55,4 +55,11 @@
                     </ul>
                 </div>
         </nav>
+        <div class="contacto-rapido">
+            <ul>
+                <li class="contacto-rapido-title">Contacto</li>
+                <li><a class="contacto-rapido-link" href="https://wa.link/5v10yi">22 13 64 77 15</a></li>
+                <li><a class="contacto-rapido-link" href="https://wa.link/n179o6">55 21 85 36 63</a></li>
+            </ul>
+        </div>
     </header>
