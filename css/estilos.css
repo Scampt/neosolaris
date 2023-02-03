@@ -118,8 +118,6 @@ body {
 }
 
 .contacto-rapido {
-    width: 100%;
-    background-color: #6FBC31;
     display: flex;
     margin: auto;
     padding: 20px 0;
