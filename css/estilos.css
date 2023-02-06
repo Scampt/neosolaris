@@ -118,6 +118,7 @@ body {
 }
 
 .contacto-rapido {
+    background-color: #6FBC31;
     display: flex;
     margin: auto;
     padding: 20px 0;
