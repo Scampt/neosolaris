@@ -1,6 +1,6 @@
 <?php require('./layout/header.php') ?>
 <main>
-        <section class="productos">
+        <section class="productos proyectos-arc">
             <div class="container-title mb-5">
                 <h1 class="productos-title productos-arquitectonicos">Productos productos arquitectonicos</h1>
             </div>

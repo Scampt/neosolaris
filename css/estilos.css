@@ -399,7 +399,6 @@ footer {
     background-color: #202020;
     color: #fff;
     position: absolute;
-    bottom: 0;
 }
 
 .extras {
@@ -550,6 +549,9 @@ footer {
         margin: auto;
     }
     /* PRODUCTOS DESTACADOS */
+    
+    .proyectos-arc {margin: 100px auto}
+    
     .productos-destacados .card .card-body .producto-destacado {width: 70%;}
     .productos-destacados .card .card-body .card-title {font-size: 18px;}
     /* PRODUCTOS */
